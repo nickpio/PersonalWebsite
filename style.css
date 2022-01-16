@@ -55,6 +55,21 @@ img {
 strong {
     font-weight: var(--fw-bold);
 }
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
 
 /* Typography */
 
