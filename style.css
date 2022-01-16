@@ -223,5 +223,34 @@ h3 {
     max-width: 1000px;
     margin: 0 auto;
 }
+.section__subtitle--contact {
+    background: var(--clr-accent);
+    padding: 0.5em 1em;
+}
 
 /* Footer section */
+.footer {
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-align: center;
+    padding: 0.5em 0;
+}
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.social-list__link:hover {
+    opacity: 0.7;
+}
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0;
+}
+.social-list__item {
+    margin: 0 0.5em;
+    font-size: var(--fs-h3);
+}
