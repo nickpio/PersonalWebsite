@@ -1,3 +1,4 @@
+/* CSS styled by Nick Pio using multiple sources */
 *,
 *::before,
 *::after {
@@ -170,6 +171,7 @@ header {
 .nav__link:hover {
     color: var(--clr-accent);
 }
+/* Creating the hamburger */
 .hamburger {
     display: block;
     position: relative;
