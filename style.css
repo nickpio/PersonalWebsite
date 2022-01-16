@@ -91,9 +91,7 @@ h3 {
 .section__title {
     margin-bottom: 0.25em;
 }
-.section__title--about {
-    font-weight: var(--fw-reg);
-}
+
 .section__title--intro strong {
     display: block;
 }
@@ -156,6 +154,9 @@ h3 {
     text-align: center;
 
 }
+.knowledges {
+    margin-bottom: 4em;
+}
 .section__title--knowledge {
     color: var(--clr-accent);
     position: relative;
@@ -173,7 +174,8 @@ h3 {
     .knowledges {
         display: flex;
         max-width: 1000px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     .know + .know {
         margin-left: 2em;
@@ -181,8 +183,19 @@ h3 {
 }
 
 /* About me section */
-
-.section__title--about {
-    font-weight: var(--fw-bold);
+.aboutme {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+@media (min-width: 600px) {
 
 }
+
+
+/* Contact me section */
+.contact {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Footer section */
